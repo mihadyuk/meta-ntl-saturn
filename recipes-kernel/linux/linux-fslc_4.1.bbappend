@@ -8,6 +8,7 @@ SRC_URI += "file://0001-add_rs485.patch
 SRC_URI += "file://defconfig"
 KERNEL_DEVICETREE = "imx6q-saturn"
 
+PV                      = "4.1.13+git${SRCPV}"
 LINUX_VERSION           = "4.1.13"
 LINUX_VERSION_EXTENSION = "-saturn"
 
