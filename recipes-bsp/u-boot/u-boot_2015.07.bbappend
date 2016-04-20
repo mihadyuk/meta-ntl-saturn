@@ -1,11 +1,11 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
 SRC_URI = "git://github.com/mihadyuk/u-boot.git;branch=saturn_2016.03"
-SRCREV  = ""
+#SRCREV  = ""
 PV      = "v2016.03+git${SRCPV}"
 
-UBOOT_ENV        = uboot-env-fdt
-UBOOT_ENV_SUFFIX = txt
+UBOOT_ENV        = "uboot-env-fdt"
+UBOOT_ENV_SUFFIX = "txt"
 
 
 
