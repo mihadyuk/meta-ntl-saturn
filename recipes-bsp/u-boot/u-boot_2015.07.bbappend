@@ -10,6 +10,10 @@ PV      = "v2016.03+git${SRCPV}"
 UBOOT_ENV        = "uboot-env-fdt"
 UBOOT_ENV_SUFFIX = "txt"
 
+PROVIDES += "u-boot"
+
+COMPATIBLE_MACHINE = "(mx6|vf)"
+
 
 
 
