@@ -9,8 +9,8 @@ SRC_URI = "git://github.com/mihadyuk/u-boot.git;protocol=https;branch=${SRCBRANC
 
 PV      = "v2016.03+git${SRCPV}"
 
-UBOOT_ENV        = "uboot-env-fdt"
-UBOOT_ENV_SUFFIX = "txt"
+#UBOOT_ENV        = "uboot-env-fdt"
+#UBOOT_ENV_SUFFIX = "txt"
 
 COMPATIBLE_MACHINE = "(mx6|vf)"
 
